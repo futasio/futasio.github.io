@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante HISA </title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left ">
+                <a href="index.html"><img class="logo " src="images/HISA_logo5.png " alt="HISAロゴ "></a>
+            </div>
+            <div class="header-right ">
+                <a href="index.html#about">About</a>
+                <a href="index.html#menu">Menu</a>
+                <a href="reservation.html ">Reservation</a>
+                <a href="index.html#access">Access</a>
+            </div>
+        </div>
+    </header>
+    <div class="form-wrapper">
+        <div class="container1">
+                <div class="form-top">
+                    <h3 class="reservation-title">Reservation</h3>
+                    <img class="form-photo" src="images/apetizer.jpg" alt="アペタイザー">
+                </div>
+                <div class="reservation-form">
+                    <form method="post" action="#">
+                        <p>
+                        ご来店予定日<br> <input type="date">
+                        </p>
+
+                    <p>お時間<br>
+                        <select name=”time” >
+                        <option value=”17”>17:00</option>
+                        <option value=”18”>18:00</option>
+                        <option value=”19”>19:00</option>
+                        <option value=”20”>20:00</option>
+                        <option value=”21”>21:00</option>
+                        <option value=”22”>22:00</option>
+                        </select>
+                    </p>
+
+                    <p>人数<br>
+                        <select name=”person” >
+                        <option value=”1”>1名</option>
+                        <option value=”2”>2名</option>
+                        <option value=”3”>3名</option>
+                        <option value=”4”>4名</option>
+                        <option value=”5”>5名</option>
+                        <option value=”6”>6名</option>
+                        <option value=”7”>7名</option>
+                        <option value=”8”>8名</option>
+                        <option value=”9”>9名</option>
+                        <option value=”10”>10名</option>
+                        </select>
+                    </p>
+
+                    <p>ご利用コース<br>
+                        <select name=”menu” >
+                        <option value=”radice”>radice ラディーチェ</option>
+                        <option value=”ramo”>Ramo ラーモ</option>
+                        <option value=”foglia”>Foglia フォーリア</option>
+                        </select>
+                    </p>
+
+                    <p>アレルギー<br>
+                        <input type="checkbox" value="小麦">小麦
+                        <input type="checkbox" value="卵">卵
+                        <input type="checkbox" value="魚介">魚介
+                        <input type="checkbox" value="その他">その他
+                    </p>
+                    
+                    <p>お名前<br>
+                        <input type="text">
+                    </p>
+                    <p>電話番号<br>
+                    <input type="tel">
+                    </p>
+                    
+                    <p class>ご要望など<br>
+                    <textarea name="comment" cols="40" rows="8"></textarea>
+                    </p>
+
+                    <input type="submit" value="確認画面へ">
+                    </form>
+            </div>
+        </div>
+    </div>
+    </body>
+<footer>
+    <div class="footer-text">
+            17:00~23:00<br> 03-1234-5678
+            <br> 999-9999
+            <br> 東京都渋谷区表参道0-0-0
+            <br> グランビルディング表参道　1F
+    </div>
+</footer>
+</html>
