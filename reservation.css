@@ -1,0 +1,34 @@
+.container1{
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom:60px;
+    background-color: #fdffea;
+}
+
+.form-wrapper{
+    height:1750px;
+    margin-top:80px;
+}
+
+.form-top{
+    padding-bottom:100px;
+    text-align: center;
+}
+
+.form-top h3 {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.reservation-form{
+    font-size: small;
+    background-color:white;
+    margin:0 200px 0 200px;
+    padding:30px 140px 80px 140px;
+    border:0.5px solid;
+}
+
+.reservation-form p{
+    border-bottom:0.5px dotted;
+    padding:15px 0;
+}
