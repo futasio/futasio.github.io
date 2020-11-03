@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e2e2e;
+    margin:0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #fdffea;
+}
+
+p {
+    font-family: MS Serif;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    position: fixed;
+    background-color: rgb(83, 68, 47);
+    opacity:0.8;
+}
+
+
+.header-left {
+    padding-left: 20px;
+}
+
+.top-wrapper {
+    text-align: center;
+    margin-top:80px;
+}
+
+.logo {
+    display:inline-block;
+    float:left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    font-size: 12px;
+    text-decoration: none;
+    font-family: MS Serif;
+    line-height: 80px;
+    padding: 0 40px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(155, 155, 155, 0.3);
+}
+
+.tennai {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+h2 {
+    padding-top:80px;
+    padding-bottom:20px;
+    letter-spacing: 2px;
+    /*color: white;*/
+}
+
+
+.middle{
+    height:820px;
+    margin:0;
+    padding:50px 100px 200px 160px;
+    text-align: center;
+    color:rgb(88, 88, 88)
+}
+
+.middle p {
+    margin:0;
+    font-size: 14px;
+}
+
+.middle-photo{
+    margin-top:50px;
+    width:60%;
+}
+
+.menu-wrapper{
+    height:620px;
+    padding-bottom:500px;
+}
+
+.menu{
+    color:rgb(100, 100, 100);
+    height:630px;
+    background-image: url(images/vege.jpg);
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.808);
+    background-blend-mode:lighten;
+    text-align: center;
+
+}
+
+.menu h3{
+    padding-top:80px;
+    margin-top:0;
+    margin-bottom:60px;
+}
+
+.menu p {
+    color:black;
+}
+
+.course{
+    float:left;
+    width:33%;
+    font-size: 13px;
+}
+
+.course p {
+    display:inline-block;
+    line-height:34px;
+}
+
+.access-wrapper {
+    height:750px;
+    text-align:center;
+    color:rgb(88, 88, 88)
+}
+
+.access-wrapper h3{
+    margin:0;
+    padding-top: 80px;
+}
+
+.access-wrapper p {
+    padding:20px 0;
+    margin-bottom:0;
+}
+
+.map{
+    padding-top:20px;
+    padding-bottom:100px;
+}
+
+footer{
+    background-color: #b4b4b4;
+    padding: 20px 0;
+}
+
+.footer-text {
+    padding:0 50px;
+    color:rgb(255, 255, 255);
+    font-size:small;
+}
+
+/*footer-text p {
+    margin:0;
+    display: inline-block;
+}
+
+/.footer-right{
+    float:right;
+}
+*/
